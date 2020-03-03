@@ -1,8 +1,10 @@
 package com.neo.mapper.test1;
 
+import ch.qos.logback.core.joran.util.beans.BeanUtil;
 import com.neo.model.User;
 import com.neo.enums.UserSexEnum;
 import org.apache.ibatis.annotations.*;
+import org.springframework.beans.BeanUtils;
 
 import java.util.List;
 
